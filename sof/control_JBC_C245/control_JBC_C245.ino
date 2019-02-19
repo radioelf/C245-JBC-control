@@ -113,7 +113,7 @@ void PasoCero_ISR() {
   Temp = InputTemp = (ADC_ISR * Factor) + Tem_comp;
   if (Temp - 5.0 < Setpoint) SET(PORTH, PH1);                       // ON pin 16 control si temperatura es < de setpoin+5grados
   if (Setpoint > Temp + 50.0 )                                      // si la diferencia es mayor de 50 grados
-    EsperaPID = 19500;                                              // pulso ON de 9,750ms, OFF 250us
+    EsperaPID = 19000;                                              // pulso ON de 9,500ms, OFF 500us
   else
     myPID.Compute(1);                                               // EsperaPID toma el valor del calculo PID
   TCNT1 = 0;                                                     	  // contador a 0
