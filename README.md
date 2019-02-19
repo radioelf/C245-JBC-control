@@ -1,7 +1,7 @@
 # C245 JBC control
 
- Harware y sofware para el control de soldadres JBC con puntas del tipo C245
- el  harware se ha realizado con KiCad y sofware para un Arduino Mega.
+ Harware y sofware para el control de soldadores JBC con puntas del tipo C245
+ el  harware se ha realizado con KiCad y el sofware para un Arduino Mega.
  
  
 
