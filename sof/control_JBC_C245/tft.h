@@ -299,6 +299,14 @@ uint8_t TFTOnOff(uint8_t selec) {
     tft.setTextColor(BLACK);
     tft.setCursor(0, 140);
     tft.print("Espera");                                              // borramos texto Espera
+    tft.drawCircle(290, 90, 4, BLACK);                             
+    tft.setCursor(270, 90);                                           
+    tft.setTextSize(5);                                               
+    tft.print(" C"); 
+    tft.setTextSize(6);                                               
+    tft.setCursor(70, 85);  
+    tft.setTextColor(WHITE);                                          
+    tft.print("-STOP-");
     return 0;
   } else {                                                            // si no encontramos en reposo
     tft.print("OFF");                                                 // borramos texto OFF
