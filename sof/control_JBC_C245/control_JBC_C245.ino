@@ -469,7 +469,7 @@ uint8_t Reposo() {
     if (millis() > Perido_Reposo + 900000L) {                     	// más de 15 minutos en reposo
       OffOn_JBC(0);                                                 // OFF control soldador
       TFTOnOff(0);
-      TFTreposo();
+      //TFTreposo();
       uint8_t IniRun = 0;
       do {
         if (BuzzerOnOFF == 1) {
