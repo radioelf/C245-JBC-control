@@ -2,6 +2,10 @@
 
  Harware y sofware para el control de soldadores JBC con puntas del tipo C245
  el  harware se ha realizado con KiCad y el sofware para un Arduino Mega.
+
+
+
+ Obsoleto,recomendado: https://github.com/AxxAxx/AxxSolder
  
  
 
